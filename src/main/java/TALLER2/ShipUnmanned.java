@@ -1,20 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package TALLER2;
 
-/**
- *
- * @author tatiana
- */
-public class ShipUnmanned {
+public class ShipUnmanned extends Ship {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    private final String destination;
+
+    public ShipUnmanned( String name, String speed, String power, String fuelType, String destination) {
+        super(name, speed, power, fuelType);
+            this.destination = destination;
     }
     
-}
+
+    @Override
+    public String createShip(){
+        return "el nombre de la nave es:"+name+
+                  "\nla velocidad de la nave es:"+speed+
+                    "\nLa potencia de la nave es:"+power+ 
+                       "\nEl combustible de la nave es:" + fuelType +
+                          "\nEl destino de la mision es:"+destination;
+                    }
+                } 
+  
+    
+    
+
