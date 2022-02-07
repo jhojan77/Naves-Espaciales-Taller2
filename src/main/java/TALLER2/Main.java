@@ -19,7 +19,7 @@ public class Main {
       
   
        /**
-        * 
+        * menu de opciones 
         */
        do {
            System.out.println("BIENVENIDO A LA SALA DE CREACION DE NAVES ESPACIALES");
@@ -37,6 +37,7 @@ public class Main {
            
            /**
             * condicional para evaluar la opcion escogida por el usuario
+            * Dependiendo el caso se ejecuta el metodo CREAR NAVE heredado de la clase NAVE
             */
            if (option <=5 ){
                switch(option){

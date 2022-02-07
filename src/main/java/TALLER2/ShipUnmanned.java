@@ -49,7 +49,7 @@ public class ShipUnmanned extends Ship {
      */
     @Override
     public void createShip(){
-       System.out.println("El nombre de la nave tripulada es:"+ name);
+       System.out.println("El nombre de la nave no tripulada es:"+ name);
         System.out.println("La velocidad de la nave es:"+speed+ "Km/h"); 
         System.out.println("La potencia de la nave es:"+power+ "toneladas"); 
         System.out.println("El combustible de la nave es:" + fuelType);

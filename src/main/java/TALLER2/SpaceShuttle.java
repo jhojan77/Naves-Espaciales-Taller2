@@ -54,11 +54,11 @@ public class SpaceShuttle extends Ship {
      */
     @Override
     public void createShip(){
-        System.out.println("el nombre de la nave tripulada es:"+ name);
-        System.out.println("La velocidad de la nave es:"+speed+ "Km/h"); 
-        System.out.println("La potencia de la nave es:"+power+ "toneladas"); 
-        System.out.println("El combustible de la nave es:" + fuelType);
-        System.out.println("El peso del transbordador espacial es:"+weight);
-        System.out.println("La proyecto de esta mision es:"+project);
+        System.out.println("El nombre del TRANSBORDADOR ESPACIAL es:"+ name);
+        System.out.println("La velocidad del transbordador es:"+speed+ "Km/h"); 
+        System.out.println("La potencia del transbordador es:" + power + "toneladas"); 
+        System.out.println("El combustible del transbordador es:" + fuelType);
+        System.out.println("El peso del transbordador espacial es:" + weight + "toneladas");
+        System.out.println("El proyecto de esta mision es:"+project);
                 }
             }
