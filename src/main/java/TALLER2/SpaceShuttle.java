@@ -2,38 +2,42 @@
 package TALLER2;
 
 /**
- * 
- * @author jhojan hoyos
+ *
+ * @author tatiana
  */
-public class ShipManned extends Ship {
-
+public class SpaceShuttle extends Ship {
+   
     /**
      * representa el atributo nombre heredado de la clase nave
      */
-    protected static String name ="Sven 86";
+    protected static String name ="Zenitt II";
     /**
      * representa el atributo tipo combustible heredado de la clase nave
      */
-    static protected String fuelType ="Hidrógeno líquido y oxígeno líquido";
+    static protected String fuelType ="sólido (perclorato de amonio y aluminio, queroseno)";
     /**
      * representa el atributo velocidad heredado de la clase nave
      */
-    static protected int speed = 300;
+    static protected int speed = 180;
     /**
      * representa el atributo potencia heredado de la clase nave
      */
-    static protected int power =200;
+    static protected int power =2000;
+    /**
+     * representa el atributo peso de la nave 
+     */
+    static protected int weight =2000;
     /**
      * representa el atributo tarea a realizar en la clase nave tripulada
      */
-    private static final  String homework="Llevar a los astronautas a la Luna";
+    private static final String project ="proporcionar una rotación de tripulación y suministros a la Estación Espacial Internacional";
     
     /**
      * constructor de la clase nave tripulada
      */
-    public ShipManned() {
+    public SpaceShuttle() {   
     }
-    
+
     /**
      * Constructor de la clase NAVE TRIPULADA heredando atributos de clase NAVE
      * @param name
@@ -41,7 +45,7 @@ public class ShipManned extends Ship {
      * @param speed
      * @param power 
      */
-    public ShipManned(String name, String fuelType, int speed, int power) {
+    public SpaceShuttle(String name, String fuelType, int speed, int power) {
         super(name, fuelType, speed, power);
     }
         
@@ -54,6 +58,7 @@ public class ShipManned extends Ship {
         System.out.println("La velocidad de la nave es:"+speed+ "Km/h"); 
         System.out.println("La potencia de la nave es:"+power+ "toneladas"); 
         System.out.println("El combustible de la nave es:" + fuelType);
-        System.out.println("La tarea de la mision es:"+homework);
+        System.out.println("El peso del transbordador espacial es:"+weight);
+        System.out.println("La proyecto de esta mision es:"+project);
                 }
             }
